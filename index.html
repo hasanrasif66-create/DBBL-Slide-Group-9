@@ -300,7 +300,7 @@ const HEX = v => '#'+new THREE.Color(v).getHexString();
 /* counts scale with power budget */
 const N = {
   users:   LITE ? 900  : 5200,
-  atms:    LITE ? 700  : 4400,
+  atms:    LITE ? 700  : 4930,
   packets: LITE ? 200  : 760,
   ring:    LITE ? 60   : 210
 };
@@ -692,7 +692,7 @@ function IBAMark(scale=1){
   }
   im.instanceMatrix.needsUpdate=true; im.userData={info,wave:{v:0}};
   g.add(im); W.atmField=im;
-  addLab(g,'4,400 ATMs',DHAKA[0]+15,3.4,DHAKA[1]+9,'a');
+  addLab(g,'4,930 ATMs',DHAKA[0]+15,3.4,DHAKA[1]+9,'a');
 }
 
 /* ── Rocket 2011 ── */
